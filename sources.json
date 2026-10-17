@@ -1,0 +1,153 @@
+{
+  "cnyes": {
+    "name": "鉅亨網",
+    "language": "zh-TW",
+    "enabled": true,
+    "seeds": [
+      "https://news.cnyes.com/news/cat/tw_stock",
+      "https://news.cnyes.com/rss/v1/news/category/all",
+      "https://news.cnyes.com/news/cat/wd_stock",
+      "https://news.cnyes.com/news/cat/newsMarco",
+      "https://news.cnyes.com/news/cat/forex"
+    ],
+    "host": "news.cnyes.com",
+    "article_pattern": "/news/id/\\d+",
+    "selectors": [
+      "#article-container"
+    ],
+    "allowed_sections": [],
+    "note": "RSS 與分類列表只涵蓋可見近期新聞，不保證全天完整。"
+  },
+  "edn": {
+    "name": "經濟日報",
+    "language": "zh-TW",
+    "enabled": false,
+    "seeds": [
+      "https://money.udn.com/money/index"
+    ],
+    "host": "money.udn.com",
+    "article_pattern": "/money/story/\\d+/\\d+",
+    "selectors": [
+      "#article_body"
+    ],
+    "allowed_sections": [
+      "證券",
+      "產業",
+      "金融",
+      "國際",
+      "總經",
+      "經濟",
+      "財經",
+      "股市"
+    ],
+    "note": "robots.txt 明列 AI/機器學習用途限制，預設停用；請先確認競賽使用授權。"
+  },
+  "udn": {
+    "name": "聯合新聞網",
+    "language": "zh-TW",
+    "enabled": false,
+    "seeds": [
+      "https://udn.com/news/cate/2/6644",
+      "https://udn.com/news/cate/2/6645"
+    ],
+    "host": "udn.com",
+    "article_pattern": "/news/story/\\d+/\\d+",
+    "selectors": [
+      ".article-content__editor"
+    ],
+    "allowed_sections": [
+      "產經",
+      "股市",
+      "財經",
+      "金融",
+      "產業",
+      "經濟",
+      "證券"
+    ],
+    "note": "robots.txt 明列 AI/機器學習用途限制，預設停用；請先確認競賽使用授權。"
+  },
+  "cna": {
+    "name": "中央社",
+    "language": "zh-TW",
+    "enabled": true,
+    "seeds": [
+      "https://www.cna.com.tw/list/asc.aspx",
+      "https://www.cna.com.tw/list/afe.aspx"
+    ],
+    "host": "www.cna.com.tw",
+    "article_pattern": "/news/(asc|afe)/\\d+\\.aspx",
+    "selectors": [
+      ".paragraph"
+    ],
+    "allowed_sections": [],
+    "note": "初測 HTTP 403；正式程式已成功擷取樣本，存取可能不穩定。"
+  },
+  "moneydj": {
+    "name": "MoneyDJ",
+    "language": "zh-TW",
+    "enabled": false,
+    "seeds": [
+      "https://www.moneydj.com/kmdj/News/NewsHome.aspx"
+    ],
+    "host": "www.moneydj.com",
+    "article_pattern": "/kmdj/news/newsviewer\\.aspx\\?a=",
+    "selectors": [
+      "article"
+    ],
+    "allowed_sections": [],
+    "note": "robots.txt 明列禁止 AI 用途，預設停用；請先確認競賽使用授權。"
+  },
+  "ctee": {
+    "name": "工商時報",
+    "language": "zh-TW",
+    "enabled": true,
+    "seeds": [
+      "https://www.ctee.com.tw/"
+    ],
+    "host": "www.ctee.com.tw",
+    "article_pattern": "/news/\\d+",
+    "selectors": [
+      ".article-body",
+      ".entry-content",
+      "[itemprop=articleBody]"
+    ],
+    "allowed_sections": [
+      "財經",
+      "金融",
+      "國際",
+      "產業",
+      "證券",
+      "股市",
+      "經濟"
+    ],
+    "note": "此環境實測驗證頁 HTTP 403；解析器尚未通過實站驗證。"
+  },
+  "cnbc": {
+    "name": "CNBC",
+    "language": "en",
+    "enabled": true,
+    "seeds": [
+      "https://www.cnbc.com/markets/",
+      "https://www.cnbc.com/economy/",
+      "https://www.cnbc.com/earnings/"
+    ],
+    "host": "www.cnbc.com",
+    "article_pattern": "/\\d{4}/\\d{2}/\\d{2}/[^/]+\\.html",
+    "selectors": [
+      ".ArticleBody-articleBody"
+    ],
+    "allowed_sections": [
+      "market",
+      "econom",
+      "financ",
+      "business",
+      "earnings",
+      "invest",
+      "stock",
+      "tech",
+      "trade",
+      "energy"
+    ],
+    "note": "初測 HTTP 403；正式程式已成功擷取樣本，存取可能不穩定。保留英文，時間轉為 UTC+8。"
+  }
+}

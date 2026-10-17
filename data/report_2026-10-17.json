@@ -1,0 +1,263 @@
+{
+  "input_count": 62,
+  "selected_count": 38,
+  "selection_counts": {
+    "selected": 38,
+    "excluded": 24
+  },
+  "tier_counts": {
+    "core": 7,
+    "context": 18,
+    "review": 14,
+    "exclude": 23
+  },
+  "cutoff": null,
+  "rules_version": "tw-broad-2",
+  "min_body_chars": 40,
+  "rules_sha256": "5f844ea21ce7d048ab417e877f9854b3a4d64e67cee3c62d60b22e96ad997db9",
+  "input_sha256": "071330d7328a9ffc2490da0c52288c791fb6815187cf79b3fd7fdef3b4528551",
+  "excluded": [
+    {
+      "title": "Why did CoreWeave stock get crushed this week? Look to this corner of the debt market for clues",
+      "url": "https://www.cnbc.com/investingclub/2026/10/16/coreweave-credit-default-swaps.html",
+      "selection": "excluded",
+      "filter_reason": "保留：未命中詞表，交由後續分析確認關聯；正文受限或少於最低字元數"
+    },
+    {
+      "title": "盤中速報 - LayerZero大跌8.46%，報1.99美元",
+      "url": "https://news.cnyes.com/news/id/6632610",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - Celestia大漲17.15%，報0.69美元",
+      "url": "https://news.cnyes.com/news/id/6632609",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - Onto Innovation Inc.(ONTO-US)大跌5.1%，報220.11美元",
+      "url": "https://news.cnyes.com/news/id/6632543",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 應用材料(AMAT-US)大跌5.1%，報408.08美元",
+      "url": "https://news.cnyes.com/news/id/6632540",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 科磊(KLAC-US)大跌5.04%，報165.67美元",
+      "url": "https://news.cnyes.com/news/id/6632539",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - NEAR大跌8.17%，報4.99美元",
+      "url": "https://news.cnyes.com/news/id/6632533",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 大零幣大跌8.67%，報1,137.1美元",
+      "url": "https://news.cnyes.com/news/id/6632532",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 安可(AMKR-US)大跌5.02%，報41.84美元",
+      "url": "https://news.cnyes.com/news/id/6632526",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - Applovin Corp - Class A(APP-US)大跌5.02%，報265.28美元",
+      "url": "https://news.cnyes.com/news/id/6632525",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 科林研發(LRCX-US)大跌5.01%，報263.55美元",
+      "url": "https://news.cnyes.com/news/id/6632524",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 英特格(ENTG-US)大跌5.02%，報139.5美元",
+      "url": "https://news.cnyes.com/news/id/6632522",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 美光科技(MU-US)大跌5%，報884.66美元",
+      "url": "https://news.cnyes.com/news/id/6632521",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 泰瑞達(TER-US)大跌5.01%，報326美元",
+      "url": "https://news.cnyes.com/news/id/6632520",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 甲骨文(ORCL-US)大跌5%，報127.75美元",
+      "url": "https://news.cnyes.com/news/id/6632519",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 邁威爾科技(MRVL-US)大跌5.03%，報229.1美元",
+      "url": "https://news.cnyes.com/news/id/6632516",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 交易台(TTD-US)大跌5.03%，報12.47美元",
+      "url": "https://news.cnyes.com/news/id/6632501",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 超微半導體(AMD-US)大跌5.01%，報534.07美元",
+      "url": "https://news.cnyes.com/news/id/6632491",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 安謀控股公司(ARM-US)大跌5.01%，報232.53美元",
+      "url": "https://news.cnyes.com/news/id/6632490",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - 英特爾(INTC-US)大跌5.02%，報90.59美元",
+      "url": "https://news.cnyes.com/news/id/6632488",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "Stocks making the biggest moves midday: CoreWeave, Moog, J.B. Hunt, Alcoa & more",
+      "url": "https://www.cnbc.com/2026/10/16/stocks-making-the-biggest-moves-midday-crwv-moga-jbht-aa.html",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報；正文受限或少於最低字元數"
+    },
+    {
+      "title": "盤中速報 - 文件幣大漲8.66%，報1.17美元",
+      "url": "https://news.cnyes.com/news/id/6632461",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - Celestia大漲14.83%，報0.7美元",
+      "url": "https://news.cnyes.com/news/id/6632460",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    },
+    {
+      "title": "盤中速報 - INJ大漲11.78%，報8.966美元",
+      "url": "https://news.cnyes.com/news/id/6632459",
+      "selection": "excluded",
+      "filter_reason": "明確的美股個股行情速報"
+    }
+  ],
+  "notice": "寬鬆分類：review 也保留，不代表已證實台股關聯；未指定 cutoff 時不保證盤前可用。",
+  "collection": {
+    "target_date": "2026-10-17",
+    "timezone": "UTC+08:00",
+    "started_at": "2026-10-17T09:57:51+08:00",
+    "coverage": "bounded_recent_listings_not_all_day_guarantee",
+    "sources": {
+      "cnyes": {
+        "status": "collected_partial",
+        "discovered": 102,
+        "attempted": 51,
+        "saved": 50,
+        "outside_date": 1,
+        "unknown_date": 0,
+        "off_topic": 0,
+        "errors": 0,
+        "note": "RSS 與分類列表只涵蓋可見近期新聞，不保證全天完整。"
+      },
+      "edn": {
+        "status": "disabled_usage_restriction",
+        "discovered": 0,
+        "attempted": 0,
+        "saved": 0,
+        "outside_date": 0,
+        "unknown_date": 0,
+        "off_topic": 0,
+        "errors": 0,
+        "note": "robots.txt 明列 AI/機器學習用途限制，預設停用；請先確認競賽使用授權。"
+      },
+      "udn": {
+        "status": "disabled_usage_restriction",
+        "discovered": 0,
+        "attempted": 0,
+        "saved": 0,
+        "outside_date": 0,
+        "unknown_date": 0,
+        "off_topic": 0,
+        "errors": 0,
+        "note": "robots.txt 明列 AI/機器學習用途限制，預設停用；請先確認競賽使用授權。"
+      },
+      "cna": {
+        "status": "collected_partial",
+        "discovered": 40,
+        "attempted": 40,
+        "saved": 7,
+        "outside_date": 33,
+        "unknown_date": 0,
+        "off_topic": 0,
+        "errors": 0,
+        "note": "初測 HTTP 403；正式程式已成功擷取樣本，存取可能不穩定。"
+      },
+      "moneydj": {
+        "status": "disabled_usage_restriction",
+        "discovered": 0,
+        "attempted": 0,
+        "saved": 0,
+        "outside_date": 0,
+        "unknown_date": 0,
+        "off_topic": 0,
+        "errors": 0,
+        "note": "robots.txt 明列禁止 AI 用途，預設停用；請先確認競賽使用授權。"
+      },
+      "ctee": {
+        "status": "unavailable",
+        "discovered": 0,
+        "attempted": 0,
+        "saved": 0,
+        "outside_date": 0,
+        "unknown_date": 0,
+        "off_topic": 0,
+        "errors": 1,
+        "note": "此環境實測驗證頁 HTTP 403；解析器尚未通過實站驗證。"
+      },
+      "cnbc": {
+        "status": "collected_partial",
+        "discovered": 129,
+        "attempted": 129,
+        "saved": 5,
+        "outside_date": 104,
+        "unknown_date": 0,
+        "off_topic": 20,
+        "errors": 0,
+        "note": "初測 HTTP 403；正式程式已成功擷取樣本，存取可能不穩定。保留英文，時間轉為 UTC+8。"
+      }
+    },
+    "stored_articles": 62,
+    "issues": [
+      {
+        "source": "ctee",
+        "stage": "listing",
+        "url": "https://www.ctee.com.tw/",
+        "reason": "403 Client Error: Forbidden for url: https://www.ctee.com.tw/"
+      }
+    ],
+    "finished_at": "2026-10-17T10:04:44+08:00"
+  },
+  "input_file": "C:\\Users\\ejirm\\Desktop\\Aicup\\finance-news-crawler\\data\\.cache\\news_2026-10-17.json",
+  "generated_at": "2026-10-17T10:04:44.864475+08:00"
+}
